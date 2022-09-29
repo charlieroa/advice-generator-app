@@ -28,37 +28,38 @@
 
  .container{
     position: relative;
-    width: 350px;
+    width: 520px;
     height: auto;
-    padding: 33px 10px 56px;
+    padding: 35px 24px 56px;
     background-color: var(--fondocuadro);
     border-radius: 10px;
  }
 
  .container .circle{
     position:absolute;   
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     background-color: var(--verde);
     border-color: var(--verde);
     margin-top: 2.5rem;
-    margin-left: -192px;
+    margin-left: -254px;
  }
 
  .container p{
     color: var(--textos);
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 33px;
     font-weight: 700;
     letter-spacing: 0.7pt;
+    font-size: 30px;
  }
 
  .container h1{
     color: var(--verde);
-    font-size: 11px;
+    font-size: 14px;
     text-align: center;
-    margin-bottom: 11px;
+    margin-bottom: 20px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
  }
